@@ -14,9 +14,10 @@ function App() {
 
  const mainHeight = () => {
     // console.log(show)
-    window.addEventListener('resize', function() {
-    document.getElementById('purple').style.height = document.getElementById('main')?.scrollHeight + 'px' || 'auto';
-     });
+    setTimeout(() => {
+      document.getElementById("purple").style.height =
+        document.getElementById("main")?.scrollHeight + "px" || "auto";
+    }, 100);
   };
 
   const classFn = () => {
