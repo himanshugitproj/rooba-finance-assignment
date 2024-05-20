@@ -23,7 +23,7 @@ const Collections = () => {
 
     <div className='flex flex-row mt-10'>
       <div className="items-center justify-center">
-          <img src='../public/images/ProfilePic.svg'></img>
+          <img src='/images/ProfilePic.svg'></img>
       </div>
       <div className="items-center justify-center ml-2">
       <p style={{fontFamily:'Lexend', fontSize:'20px', lineHeight:'44px', fontWeight:'500', display:'inline'}} className=' text-white justify-center pt-5 font-'>
@@ -39,9 +39,9 @@ const Collections = () => {
         Collectibles
       </p>
       <div className='flex flex-row mt-5'>
-          <img className='h-52 w-36 mr-2 hover:w-60 cursor-pointer' src='../public/images/CardCollections.svg'></img>
-          <img className='h-52 w-36 mr-2 hover:w-60 cursor-pointer' src='../public/images/CardCollections.svg'></img>
-          <img className='h-52 w-36 mr-2 hover:w-60 cursor-pointer' src='../public/images/CardCollections.svg'></img>
+          <img className='h-52 w-36 mr-2 hover:w-60 cursor-pointer' src='/images/CardCollections.svg'></img>
+          <img className='h-52 w-36 mr-2 hover:w-60 cursor-pointer' src='/images/CardCollections.svg'></img>
+          <img className='h-52 w-36 mr-2 hover:w-60 cursor-pointer' src='/images/CardCollections.svg'></img>
       </div>
     </div>
 
