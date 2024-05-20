@@ -112,7 +112,7 @@ function App() {
               style={{ animation: "scroll-vertical 8s linear infinite" }}
               className="w-10 ml-3 z-50 ease-in-out "
             >
-              <img style={{}} src="../public/images/Text.png"></img>
+              <img style={{}} src="/images/Text.png"></img>
             </div>
           </div>
 
