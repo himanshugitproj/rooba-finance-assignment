@@ -41,7 +41,7 @@ const Carousel1 = () => {
             >
               Lunar Palace: (ft. Kanye west)
             </h3>
-            <img style={{ height: "" }} src="../public/images/Lady.png"></img>
+            <img style={{ height: "" }} src="/images/Lady.png"></img>
           </div>
         </div>
         <div>
@@ -58,7 +58,7 @@ const Carousel1 = () => {
             >
               Lunar Palace: (ft. Kanye west)
             </h3>
-            <img src="../public/images/Astro.png"></img>
+            <img src="/images/Astro.png"></img>
           </div>
         </div>
         <div>
@@ -75,7 +75,7 @@ const Carousel1 = () => {
             >
               Lunar Palace: (ft. Kanye west)
             </h3>
-            <img src="../public/images/PaperPrint.png"></img>
+            <img src="/images/PaperPrint.png"></img>
           </div>
         </div>
         <div>
@@ -92,7 +92,7 @@ const Carousel1 = () => {
             >
               Lunar Palace: (ft. Kanye west)
             </h3>
-            <img src="../public/images/LadyPic.png"></img>
+            <img src="/images/LadyPic.png"></img>
           </div>
         </div>
         <div>
@@ -109,7 +109,7 @@ const Carousel1 = () => {
             >
               Lunar Palace: (ft. Kanye west)
             </h3>
-            <img style={{ height: "" }} src="../public/images/Budweiser.png"></img>
+            <img style={{ height: "" }} src="/images/Budweiser.png"></img>
           </div>
         </div>
        
