@@ -16,11 +16,11 @@ const Events = () => {
           </h1>
 
           <div style={{alignItems: 'center'}} className='flex flex-row mt-7 justify-start align-middle'>
-              <img src='../public/images/LocationIcon.svg'></img>
+              <img src='/images/LocationIcon.svg'></img>
               <h3 style={{fontFamily:'Lexend', fontSize:'22px', lineHeight:'28px', fontWeight:'600', display:'inline'}} className='text-white ml-3'>
                 Venue
               </h3>
-              <img className='ml-10' src='../public/images/TimerIcon.svg'></img>
+              <img className='ml-10' src='/images/TimerIcon.svg'></img>
               <h3 style={{fontFamily:'Lexend', fontSize:'22px', lineHeight:'28px', fontWeight:'600', display:'inline'}} className='text-white ml-3'>
                 04/3/2024 @19:00
               </h3>
@@ -34,7 +34,7 @@ const Events = () => {
     
         {/* <div className='flex flex-row mt-10'>
           <div className="items-center justify-center">
-              <img src='../public/images/ProfilePic.svg'></img>
+              <img src='/images/ProfilePic.svg'></img>
           </div>
           <div className="items-center justify-center ml-2">
           <p style={{fontFamily:'Lexend', fontSize:'20px', lineHeight:'44px', fontWeight:'500', display:'inline'}} className=' text-white justify-center pt-5 font-'>
@@ -51,14 +51,14 @@ const Events = () => {
         
           
           <div className='flex flex-row mt-10'>
-              <img className='h-32 w-24 mr-2 hover:w-36 hover:h-44 rounded-sm cursor-pointer' src='../public/images/ArtistLineup1.png'></img>
-              <img className='h-32 w-24 mr-2 hover:w-36 hover:h-44 cursor-pointer' src='../public/images/ArtistLineup2.png'></img>
-              <img className='h-32 w-24 mr-2 hover:w-36 hover:h-44 rounded-md cursor-pointer' src='../public/images/ArtistLineup3.png'></img>
+              <img className='h-32 w-24 mr-2 hover:w-36 hover:h-44 rounded-sm cursor-pointer' src='/images/ArtistLineup1.png'></img>
+              <img className='h-32 w-24 mr-2 hover:w-36 hover:h-44 cursor-pointer' src='/images/ArtistLineup2.png'></img>
+              <img className='h-32 w-24 mr-2 hover:w-36 hover:h-44 rounded-md cursor-pointer' src='/images/ArtistLineup3.png'></img>
           </div>
         </div>
     
         <div style={{justifyContent:'space-between' , alignItems:'baseline' }} className='flex flex-row mr-10 mt-40'>
-            <img className='h-24 w-24 mr-2 rounded-sm' src='../public/images/QR.png'></img>
+            <img className='h-24 w-24 mr-2 rounded-sm' src='/images/QR.png'></img>
             <button onClick={() => window.location = 'mailto:himanshuyadav.18gcebit044@galgotiacollege.edu; himanshu.fello@gmail.com'} style={{ backgroundColor:'#FFCA5F', fontFamily:'Lexend', fontWeight:'700',lineHeight:'10px', fontSize:'15px'}} className='rounded-3xl justify-end justify-items-end w-32 h-10 hover:-mt-1 hover:w-38 hover:h-12'>Join Waitlist</button>
         </div>
     
