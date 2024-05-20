@@ -31,27 +31,27 @@ const CarouselEvent = () => {
         <Slider {...settings}>
           <div>
             <div className='pt-10' style={{ margin: "0 10px" }}>           
-              <img style={{ height: "" }} src="../public/images/boy.png"></img>
+              <img style={{ height: "" }} src="/images/boy.png"></img>
             </div>
           </div>
           <div>
            <div className='pt-10' style={{ margin: "0 10px" }}>           
-              <img src="../public/images/Astro.png"></img>
+              <img src="/images/Astro.png"></img>
             </div>
           </div>
           <div>
            <div className='pt-10' style={{ margin: "0 10px" }}>
-              <img src="../public/images/PaperPrint.png"></img>
+              <img src="/images/PaperPrint.png"></img>
             </div>
           </div>
           <div>
            <div className='pt-10' style={{ margin: "0 10px" }}> 
-            <img src="../public/images/LadyPic.png"></img>
+            <img src="/images/LadyPic.png"></img>
             </div>
           </div>
           <div>
            <div className='pt-10' style={{ margin: "0 10px" }}>
-              <img style={{ height: "" }} src="../public/images/Budweiser.png"></img>
+              <img style={{ height: "" }} src="/images/Budweiser.png"></img>
             </div>
           </div>
          
