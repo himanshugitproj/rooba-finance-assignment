@@ -12,11 +12,11 @@ import CarouselEvent from "./components/CarouselEvent";
 function App() {
   const [show, setshow] = useState("Collections");
 
-  const mainHeight = () => {
+ const mainHeight = () => {
     // console.log(show)
-    setTimeout(() => {
-      document.getElementById('purple').style.height = document.getElementById('main')?.scrollHeight + 'px' || 'auto';
-    }, 100)
+    window.addEventListener('resize', function() {
+    document.getElementById('purple').style.height = document.getElementById('main')?.scrollHeight + 'px' || 'auto';
+     });
   };
 
   const classFn = () => {
