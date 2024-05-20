@@ -1,0 +1,19 @@
+
+body {
+  background-color: #131314 !important;
+}
+
+@keyframes scroll-vertical {
+  0% {
+      transform: translateY(0);
+  }
+  100% {
+      transform: translateY(-100%);
+  }
+}
+
+@keyframes moveSlideshow {
+  100% { 
+    transform: translateY(-86.6666%);  
+  }
+}
